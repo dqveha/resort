@@ -10,14 +10,28 @@ a:visited {
   color: #3E5171;
 }
 
+blockquote p {
+  width: 400px;
+  padding-top: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
+
+
 
 h1 {
   padding: 3rem;
   color: #EA6007;
   text-align: center;
+  background-color: white;
+  width: auto;
 }
 
 h2 {
@@ -41,13 +55,20 @@ p {
   padding-top: 50px;
 }
 
+p.big {
+  line-height: 2.1;
+}
+
 ul {
   text-align: center;
 }
 
 #navigation {
   background-color: #FFFFF9
-  
+}
+
+#border {
+  border: 10px solid white;
 }
 
 color: #EA6007
